@@ -15,7 +15,9 @@
 1. Log in to your AWS Management Console.
 Navigate to the S3 service. You can search for "S3" in the search bar or find it under the "Storage" category.
 Click on the "Create bucket" button.
-2. In the "Bucket name" field, enter "data-pipeline-s3-glue". Choose a region closest to where you access the data most frequently.
-(Optional) Configure additional settings for the bucket as needed. You can leave the defaults for most initial setups.
+2. In the "Bucket name" field, enter "data-pipeline-s3-glue".
+3. Choose a region closest to where you access the data most frequently.
+4. (Optional) Configure additional settings for the bucket as needed. You can leave the defaults for most initial setups.
 Click on the "Create" button.
-This will create an S3 bucket named data-pipeline-s3-glue within your AWS account. You can then use this bucket to store both your raw and processed data files.
+- This will create an S3 bucket named data-pipeline-s3-glue within your AWS account.
+- You can then use this bucket to store both your raw and processed data files.
